@@ -1,0 +1,207 @@
+:root{
+    --mainColor:#eaeaea;
+    --secondaryColor:#fff;
+
+    --mainText:black;
+    --secondarText:#4b5156;
+}
+html, body{
+  padding:0;
+  margin:0;
+  font-family: 'Poppins', sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6, strong{
+    color: var(--mainText);
+}
+
+h1{
+    font-weight: 900;
+    font-size: 47px;
+}
+h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+h3{
+  font-size: 20px;
+}
+.logo i{
+  height: 55px;
+  width: 55px;
+  background: transparent;
+  border: 2px solid;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+}
+
+p, li, span, label, input, textarea{
+    color: var(--secondarText);
+}
+
+.body-frame{
+  padding-left: 11% ;
+  padding-right: 11%;
+}
+/* button */
+.download-button{
+  margin: 5% 3% 5% 0;
+
+}
+.imagebanner{
+  max-width:80%;
+
+}
+
+.s1child{
+  padding-top:  3%;
+  padding-bottom: 3%;
+  height: auto;
+  width: auto;
+
+}
+.navbarhead{
+  padding-left: 11% ;
+  padding-right: 11%;
+  height: auto;
+  width: auto;
+  background-color: white;
+}
+.h3hello{
+padding-top:  30%;
+}
+
+/* s3 */
+#s3{
+  padding-top:  4%;
+  padding-bottom: 4%;
+  width: 100%;
+  height: auto;
+  padding: 80px 13 %;
+  background-color:white;
+}
+.skill-main{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+
+}
+.skill-main .skill-bar .info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+
+}
+
+.skill-bar .info .percent{
+  font-weight: bold;
+}
+
+.skill-bar .bar{
+  width: 100%;
+  height: 10px;
+  position: relative;
+  background-color: #CFD2CF;
+  border-radius: 25px;
+  margin-top: 5px;
+}
+.skill-bar .bar span{
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #181818;
+}
+
+.skill-bar .bar .Shtml{
+  width: 90%;
+  animation: Shtml 3s;
+}
+
+@keyframes Shtml{
+  0%{
+    width: 0;
+  }100%{
+    width: 80%;
+  }
+}
+
+.skill-bar .bar .Scss{
+  width: 90%;
+  animation: Scss 3s;
+}
+
+@keyframes Scss{
+  0%{
+    width: 0;
+  }100%{
+    width: 80%;
+  }
+}
+
+.skill-bar .bar .Sbootstrap{
+  width: 80%;
+  animation: Sbootstrap 3s;
+}
+
+@keyframes Sbootstrap{
+  0%{
+    width: 0;
+  }100%{
+    width: 80%;
+  }
+}
+
+.skill-bar .bar .SVisual6{
+  width: 93%;
+  animation: SVisual6 3s;
+}
+
+@keyframes SVisual6{
+  0%{
+    width: 0;
+  }100%{
+    width: 93%;
+  }
+}
+
+.skill-bar .bar .SVisual2013{
+  width: 93%;
+  animation: SVisual2013 3s;
+}
+
+@keyframes SVisual2013{
+  0%{
+    width: 0;
+  }100%{
+    width: 93%;
+  }
+}
+
+.skill-bar .bar .SFlutter{
+  width: 50%;
+  animation: SFlutter 3s;
+}
+
+@keyframes SFlutter{
+  0%{
+    width: 0;
+  }100%{
+    width: 50%;
+  }
+}
+
+.skill-bar .bar .SJavascript{
+  width: 30%;
+  animation: SJavascript 3s;
+}
+
+@keyframes SJavascript{
+  0%{
+    width: 0;
+  }100%{
+    width: 30%;
+  }
+}
