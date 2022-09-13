@@ -71,8 +71,14 @@ p, li, span, label, input, textarea{
 .h3hello{
 padding-top:  30%;
 }
+ /* s2 About Me */
+.pabout{
+  padding-top: 20%;
+  font-size: 20px;
+}
 
-/* s3 */
+
+/* s3 skills */
 #s3{
   padding-top:  4%;
   padding-bottom: 4%;
@@ -129,7 +135,7 @@ padding-top:  30%;
 }
 
 .skill-bar .bar .Scss{
-  width: 90%;
+  width: 80%;
   animation: Scss 3s;
 }
 
