@@ -74,11 +74,10 @@ textarea {
 }
 
 .s1child {
-
+  margin-top: 180px;
   padding-bottom: 3%;
   height: auto;
   width: auto;
-
 }
 
 .navbarhead {
@@ -92,10 +91,7 @@ textarea {
 .h3hello {
   padding-top: 10%;
 }
-.s1child{
-margin-top: 180px;
 
-}
 /* s2 About Me */
 .paboutme {
   padding-top: 4%;
